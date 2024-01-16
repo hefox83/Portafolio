@@ -1,8 +1,9 @@
 body{
     background-image: url("../img/lineas.jpeg");
+    font-family: 'Roboto', sans-serif;
 }
 .navbar{
-    list-style-type: none;
+  list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -58,4 +59,21 @@ h1{
 }
 th{
     padding-top: 20px;
+}
+.flex-container{
+    display: inline-flex;
+    flex-direction: row;
+    gap: 20px;
+    text-align: center;
+    justify-content: flex-end;
+}
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+.imgp{
+    height: 300px;
+    width: 300px;
+
 }
