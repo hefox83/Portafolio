@@ -1,0 +1,61 @@
+body{
+    background-image: url("../img/lineas.jpeg");
+}
+.navbar{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.navbar1{
+    float: left;
+}
+.navbar1 a:hover {
+    background-color: gray;
+  }
+.nav{
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+h1{
+    text-align: center;
+    text-decoration-line:  underline;
+    text-transform: uppercase;
+}
+.nombre{
+    display: flow-root;
+    padding-bottom: 3%;
+   
+}
+.img_cv{
+    float: left;
+}
+.n1{
+    padding-left: 13%;
+}
+.n2{
+    padding-left: 13%;
+}
+.edu{
+
+    padding-right: 5%;
+    padding-left: 5%;
+    border-top: 1px solid #333; 
+}
+.year{
+    width: 10%;
+}
+.lin{
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+}
+.lin1{
+    padding-bottom: 5%;
+}
+th{
+    padding-top: 20px;
+}
